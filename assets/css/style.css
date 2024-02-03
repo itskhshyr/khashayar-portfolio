@@ -97,7 +97,7 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 @media (max-width: 1024px) {
@@ -956,6 +956,7 @@ direction: rtl;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  direction: rtl;
 }
 
 .work-box:hover img {
