@@ -15,6 +15,7 @@
   font-family: my-font;
   src: url("../../fonts/Yekan-Bakh.ttf");
 }
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -106,8 +107,16 @@ a:hover {
   }
 }
 
+.custom-borderradius {
+  border-radius: 15px !important;
+}
+
 .overlay-mf {
   background-color: #0078ff;
+}
+
+.bio-content {
+  text-align: justify;
 }
 
 .overlay-mf {
@@ -148,17 +157,20 @@ a:hover {
 .sect-mt4 {
   margin-top: 4rem;
 }
-.more-info{
+
+.more-info {
   direction: rtl;
 }
+
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-.about-content-wrapper{
-direction: rtl;
+
+.about-content-wrapper {
+  direction: rtl;
 }
 
 /*--/ Title A /--*/
@@ -916,6 +928,16 @@ direction: rtl;
 
 .service-box .s-description {
   color: #4e4e4e;
+  text-align: justify;
+
+}
+
+.s-title {
+  margin-top: 2rem;
+}
+
+.service-box {
+  min-height: 350px !important;
 }
 
 /*--------------------------------------------------------------
@@ -1035,7 +1057,9 @@ direction: rtl;
   padding: 30px;
   box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
 }
-
+.portfolio-info{
+  border-radius: 10px;
+}
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
