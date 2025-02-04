@@ -32,6 +32,7 @@ h6 {
 }
 .bg-image{
 background: url("../img/jdid/m2.png") no-repeat  top;
+overflow: hidden;
 }
 
 a {
@@ -72,6 +73,9 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
+.work-box{
+  border-radius:25px ;
+}
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
@@ -111,7 +115,7 @@ a:hover {
 }
 
 .custom-borderradius {
-  border-radius: 15px !important;
+  border-radius: 25px !important;
 }
 
 .overlay-mf {
@@ -511,6 +515,7 @@ a:hover {
 */
 .navbar {
   padding: 0;
+
  
 }
 
@@ -661,6 +666,7 @@ a:hover {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+   
   }
 
   .navbar ul {
@@ -894,7 +900,7 @@ a:hover {
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  border-radius: 25px;
   margin-bottom: 3rem;
   text-align: center;
 }
